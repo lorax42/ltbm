@@ -1,4 +1,4 @@
-#include "arrsize.h"
+#include "ltbm.h"
 
 int ltbm::arrsize(int arr[]){
 	return sizeof(arr)/sizeof(arr[0]);

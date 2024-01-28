@@ -1,4 +1,4 @@
-#include "trunc.h"
+#include "ltbm.h"
 #include <math.h>
 
 float ltbm::trunc(float num,int pos){

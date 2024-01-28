@@ -1,5 +1,4 @@
-#include "add.h"
-#include "arrsize.h"
+#include "ltbm.h"
 
 int ltbm::add(int a,int b){
 	return(a+b);

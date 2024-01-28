@@ -1,9 +1,8 @@
-#include "max.h"
+#include "ltbm.h"
 
-/*
 int ltbm::max(int nums[]){
 	int max=0;
-	for(int i=0;i<sizeof(nums);i++){
+	for(int i=0;i<ltbm::arrsize(nums);i++){
 		if(nums[i]>max){max=nums[i];}
 	}
 	return max;
@@ -11,7 +10,7 @@ int ltbm::max(int nums[]){
 
 float ltbm::max(float nums[]){
 	float max=0.0;
-	for(int i=0;i<sizeof(nums);i++){
+	for(int i=0;i<ltbm::arrsize(nums);i++){
 		if(nums[i]>max){max=nums[i];}
 	}
 	return max;
@@ -19,17 +18,16 @@ float ltbm::max(float nums[]){
 
 double ltbm::max(double nums[]){
 	double max=0.0;
-	for(int i=0;i<sizeof(nums);i++){
+	for(int i=0;i<ltbm::arrsize(nums);i++){
 		if(nums[i]>max){max=nums[i];}
 	}
 	return max;
 }
-*/
 
 //VECTOR
 int ltbm::max(std::vector<int> nums){
 	int max=0;
-	for(int i=0;i<sizeof(nums);i++){
+	for(int i=0;i<nums.size();i++){
 		if(nums[i]>max){max=nums[i];}
 	}
 	return max;
@@ -37,7 +35,7 @@ int ltbm::max(std::vector<int> nums){
 
 float ltbm::max(std::vector<float> nums){
 	float max=0.0;
-	for(int i=0;i<sizeof(nums);i++){
+	for(int i=0;i<nums.size();i++){
 		if(nums[i]>max){max=nums[i];}
 	}
 	return max;
@@ -46,7 +44,7 @@ float ltbm::max(std::vector<float> nums){
 
 double ltbm::max(std::vector<double> nums){
 	double max=0.0;
-	for(int i=0;i<sizeof(nums);i++){
+	for(int i=0;i<nums.size();i++){
 		if(nums[i]>max){max=nums[i];}
 	}
 	return max;
